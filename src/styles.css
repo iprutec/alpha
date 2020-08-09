@@ -2448,11 +2448,12 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: #212529;
+  color: #fff;
   text-decoration: none;
 }
 
 .btn img {
+  width: 50px;
   animation: bounce ease 4s;
   animation-iteration-count: infinite;
   -webkit-animation: bounce ease 4s;
@@ -2498,29 +2499,20 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #e0002a;
+  border: 3px solid #fff;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #fec810;
-  border-color: #fec503;
+  background-color: #bb0022;
 }
 .btn-primary:focus, .btn-primary.focus {
-  color: #fff;
-  background-color: #fec810;
-  border-color: #fec503;
-  box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+  background-color: #bb0022;
 }
 .btn-primary.disabled, .btn-primary:disabled {
-  color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #bb0022;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #fec503;
-  border-color: #f3bd01;
+  background-color: #bb0022;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
@@ -10074,7 +10066,7 @@ img::-moz-selection {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font: 700 1.125rem/1 "Overpass", "Helvetica Neue", Arial, sans-serif;
+  font: 900 1.125rem/1 "Overpass", "Helvetica Neue", Arial, sans-serif;
 }
 
 .btn-social {
@@ -10155,16 +10147,41 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 7rem;
-  padding-bottom: 2rem;
+  height: 100vh;
   text-align: center;
   color: #000;
   background: url("assets/img/splash-header-light.png") no-repeat scroll center center #fff;
   background-size: cover;
 }
+
+header.masthead::before, header.masthead::after {
+  content: "";
+  height: 0;
+  width: 50%;
+  border-bottom: 50px solid #e0002a;
+  position: absolute;
+  bottom: 0;
+}
+
+header.masthead::before {
+	border-left: 0 solid transparent;
+  border-right: 45px solid transparent;
+  left: 0;
+}
+
+header.masthead::after {
+	border-left: 45px solid transparent;
+  border-right: 0 solid transparent;
+  right: 0;
+}
+
+header.masthead .container {
+  padding-top: 8.5em;
+}
+
 header.masthead .masthead-subheading {
-  font: 1.5rem/1.2 "Roboto", "Helvetica Neue", Arial, sans-serif;
-  width: 75%;
+  font: 1.25rem/1.2 "Roboto", "Helvetica Neue", Arial, sans-serif;
+  width: 60%;
   margin: 0 auto 2rem;
 }
 
@@ -10182,13 +10199,90 @@ header.masthead .masthead-heading {
   margin: 0 auto 2em;
 }
 
+.masthead-subheading .btn {
+  width: 300px;
+  transition: background-color 0.5s ease-in 0.3s;
+}
+
+.masthead-subheading .btn:hover {
+  background-color: #bb0022;
+}
+
+.masthead-subheading .btn::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-top: 7px solid transparent;
+  border-left: 15px solid #fff;
+  border-bottom: 7px solid transparent;
+  margin: 0 0 0 15px;
+}
+
+
+section#financial-solutions {
+  padding: 3rem 0 6rem;
+  background-color: #e0002a;
+}
+
+#financial-solutions .first {
+  padding-bottom: 3rem;
+}
+
+#financial-solutions .text-center {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#financial-solutions .col-md-3 {
+  max-width: 25%;
+  display: inline-block;
+  float: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#financial-solutions img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#financial-solutions img:hover {
+  background: white;
+	box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+	animation: pulse-white 2s infinite;
+}
+
+@keyframes pulse-white {
+	0% {
+		transform: scale(1);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8);
+	}
+	
+	70% {
+		transform: scale(1.1);
+		box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);
+	}
+	
+	100% {
+		transform: scale(1);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+	}
+}
+
+#financial-solutions h2 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 9rem;
-    padding-bottom: 3rem;
+
   }
   header.masthead .masthead-subheading {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 1.2;
     margin-bottom: 2rem;
   }
