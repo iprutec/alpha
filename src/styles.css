@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
 * Start Bootstrap - Agency v6.0.2 (https://startbootstrap.com/template-overviews/agency)
 * Copyright 2013-2020 Start Bootstrap
@@ -10103,13 +10102,14 @@ img::-moz-selection {
   padding: 1rem 0;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,0.7) 0.5%, rgba(255,255,255,0.5) 0.7%, rgba(255,255,255,0.4) 30%, rgba(255,255,255,1) 100%);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px);
 }
 
 #mainNav.dock {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 99%, rgba(255,255,255,1) 100%);
+  background: rgba(255,255,255,0.85);
   padding: 0;
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 0 35px -3px rgba(0,0,0,0.6);
 }
 
 #mainNav .navbar-toggler {
@@ -10193,14 +10193,22 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  height: 100vh;
+  position: relative;
+  width: 100%;
+  height: 50vh;
   text-align: center;
   color: #000;
-  background: url("assets/img/splash-header-light.png") no-repeat scroll center center #fff;
+  background: url("assets/img/splash-header-light.png") no-repeat scroll center bottom #fff;
   background-size: cover;
+  background-attachment: fixed;
 }
 
-header.masthead::before, header.masthead::after {
+header.masthead.home {
+  position: auto;
+  height: 100vh;
+}
+
+header.masthead.home::before, header.masthead.home::after {
   content: "";
   height: 0;
   width: 50%;
@@ -10215,14 +10223,18 @@ header.masthead::before {
   left: 0;
 }
 
-header.masthead::after {
+header.masthead.home::after {
 	border-left: 45px solid transparent;
   border-right: 0 solid transparent;
   right: 0;
 }
 
-header.masthead .container {
+header.masthead.home .container {
   padding-top: 8.5em;
+}
+
+header.masthead .container {
+  padding-top: 10em;
 }
 
 header.masthead .masthead-subheading {
@@ -10247,19 +10259,26 @@ header.masthead .masthead-heading {
   margin: 0 auto 2em;
 }
 
-.masthead-subheading .btn, #about .btn, #contactForm .btn-primary {
+.masthead-subheading .btn,
+#about .btn, #contactForm .btn-primary,
+#apply-now-co .btn-primary {
   max-width: 300px;
   width: 95%;
   color: #fff;
   transition: background-color 0.5s ease-in 0.3s;
 }
 
-.masthead-subheading .btn:hover, #about .btn:hover, #contactForm .btn-primary:hover {
+.masthead-subheading .btn:hover,
+#about .btn:hover,
+#contactForm .btn-primary:hover {
   color: #fff;
   background-color: #000;
 }
 
-.masthead-subheading .btn::after, #about .btn::after, #contactForm .btn-primary::after {
+.masthead-subheading .btn::after,
+#about .btn::after,
+#contactForm .btn-primary::after,
+#apply-now-co .btn-primary::after {
   content: "";
   width: 0;
   height: 0;
@@ -10367,6 +10386,8 @@ section#about{
   background-color: #000;
 }
 
+
+
 /* SECTION VISION */
 
 section#vision {
@@ -10410,7 +10431,7 @@ section#vision p {
 }
 
 #testimonials h2 {
-  color: #000;
+  color: #e0002a;
   text-align: center;
   margin-bottom: 6vh;
 }
@@ -10466,6 +10487,32 @@ section#vision p {
 .carousel-indicators li { background-color: #000 !important; }
 
 
+/* SECTION MAP */
+
+section#map{
+  padding: 0;
+}
+
+section#map iframe {
+  margin: 0 auto !important;
+  padding: 0 !important;
+  display: block;
+}
+
+/* APPLY NOW */
+section#apply-now-co {
+ background: url('/assets/img/background/apply-callout.jpg') no-repeat fixed center bottom #fff;
+ background-size: cover;
+}
+
+#apply-now-co .text-center {
+  width: 50%;
+  margin: 0 auto;
+}
+
+section#apply-now-co h2 {
+  color: #000;
+}
 
 .item blockquote {
   border-left: none;
