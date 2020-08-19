@@ -6,13 +6,13 @@ import { Component, OnInit } from '@angular/core';
   <!-- Masthead-->
   <header class="masthead subpage">
       <div class="container">
-          <div class="masthead-heading text-uppercase">Get in touch</div>
+          <div class="masthead-heading text-uppercase">Testimonials</div>
           <div class="masthead-subheading">
           <p>
-              We'd love to help you start securing your future
+          As a Financial Consultant, it is always my commitment to provide high-quality service that would not only meet my client's expectations but would also exceed or delight them.
           </p>
           </div>
-          <a class="js-scroll-trigger" href="#anchor-1"><img src="/assets/img/nav/nav-scroll-down-subpage.png" alt=""></a>
+          <a class="js-scroll-trigger" id="anchor-testimonials" href="../testimonials#anchor-testimonials"><img src="/assets/img/nav/nav-scroll-down-subpage.png" alt=""></a>
       </div>
   </header>
 
@@ -21,7 +21,6 @@ import { Component, OnInit } from '@angular/core';
       <div class="container-fluid">
           <div class="row">
               <div class="col-md-12">
-                  <h2 class="section-heading text-uppercase">Testimonials</h2>
   
                   <div class="carousel slide" id="my-carousel" data-ride="carousel">
                       <ol class="carousel-indicators">

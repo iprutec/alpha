@@ -12,13 +12,13 @@ import { Component, OnInit } from '@angular/core';
               We'd love to help you start securing your future
           </p>
           </div>
-          <a class="js-scroll-trigger" href="#anchor-1" target="_self"><img src="/assets/img/nav/nav-scroll-down-subpage.png" alt=""></a>
+          <a class="js-scroll-trigger" id="anchor-contact" href="../contact#anchor-contact" target="_self"><img src="/assets/img/nav/nav-scroll-down-subpage.png" alt=""></a>
       </div>
   </header>
 
   <!-- Contact-->
-  <section class="page-section" id="anchor-1contact">
-      <div id="anchor-1" class="container">
+  <section class="page-section" id="contact">
+      <div class="container">
           <div class="text-center">
               <h2 class="section-heading text-uppercase">Connect with us</h2>
           </div>

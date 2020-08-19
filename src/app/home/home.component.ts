@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   <!-- Masthead-->
   <header class="masthead home">
       <div class="container">
-          <div class="masthead-logo"><img src="/assets/img/logos/logo-iprutec.png" alt=""></div>
+          <div class="masthead-logo"><img src="/assets/img/logos/logo-iprutec.gif" alt=""></div>
           <div class="masthead-heading text-uppercase">Making your future a success</div>
           <div class="masthead-subheading">
           <p>
@@ -23,7 +23,7 @@ import { Component, OnInit } from '@angular/core';
               </div>
           </div>
           </div>
-          <a class="js-scroll-trigger" href="#financial-solutions"><img src="/assets/img/nav/nav-scroll-down-bk.png" alt=""></a>
+          <a class="js-scroll-trigger" id="anchor-home" href="#anchor-home"><img src="/assets/img/nav/nav-scroll-down-bk.png" alt=""></a>
       </div>
   </header>
   

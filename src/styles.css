@@ -10101,7 +10101,7 @@ img::-moz-selection {
 #mainNav {
   padding: 1rem 0;
   background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,0.7) 0.5%, rgba(255,255,255,0.5) 0.7%, rgba(255,255,255,0.4) 30%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(0deg, rgba(255,255,255,0) 5%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,1) 100%);
   backdrop-filter: blur(8px);
 }
 
@@ -10198,7 +10198,7 @@ header.masthead {
   height: 50vh;
   text-align: center;
   color: #000;
-  background: url("assets/img/splash-header-light.png") no-repeat scroll center bottom #fff;
+  background: url("assets/img/background/homepage-rain.jpg") no-repeat scroll center bottom #fff;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -10251,6 +10251,10 @@ header.masthead .masthead-heading {
   width: 76%;
   font: 900 9.5vh/1 "Overpass", "Helvetica Neue", Arial, sans-serif;
   margin: 0 auto;
+}
+
+header.subpage .masthead-subheading {
+  width: 75%;
 }
 
 .masthead-logo img {
@@ -10506,7 +10510,7 @@ section#apply-now-co {
 }
 
 #apply-now-co .text-center {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 

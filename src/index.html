@@ -21,16 +21,21 @@ response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
 
         <script>
             jQuery(function($) {
-              
-              var $nav = $('#mainNav'),
-                  $win = $(window),
-                  winH = $win.height();    // Get the window height.
-              
-              $win.on("scroll", function () {
-              $nav.toggleClass("dock", $(this).scrollTop() > winH );
-              }).on("resize", function(){ // If the user resizes the window
-              winH = $(this).height(); // you'll need the new height value
-              });
+
+              $(function() {
+                var nav = $('#mainNav');
+                var heightThreshold = $(".masthead").offset().top;
+                var heightThreshold_end  = $(".masthead").offset().top + $(".masthead").height();
+                $(window).scroll(function() {
+                    var scroll = $(window).scrollTop();
+
+                    if (scroll >= heightThreshold && scroll <= heightThreshold_end ) {
+                        nav.removeClass('dock');
+                    } else {
+                        nav.addClass('dock');
+                    }
+                });
+            })
 
               $(window).load(function() {
                 // When the page has loaded
