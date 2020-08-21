@@ -18,9 +18,11 @@ import { Component, OnInit } from '@angular/core';
 
   <!-- Testimonials-->
   <section id="testimonials" class="page-section">
-      <div class="container-fluid">
+  
+  <div class="container-fluid">
           <div class="row">
               <div class="col-md-12">
+                  <h2 class="section-heading text-uppercase">Testimonials</h2>
   
                   <div class="carousel slide" id="my-carousel" data-ride="carousel">
                       <ol class="carousel-indicators">
@@ -151,13 +153,14 @@ import { Component, OnInit } from '@angular/core';
               </div>
           </div>
       </div>
+
   </section>
 
   <!-- About-->
   <section class="page-section" id="apply-now-co">
       <div class="container">
           <div class="text-center">
-              <h2 class="section-heading text-uppercase">Ready to take the first step?</h2>
+              <h2 class="section-heading text-uppercase">Ready to take the<br>first step?</h2>
     
               <a class="btn btn-primary btn-xl text-uppercase" id="" type="" routerLink="../apply">Apply Now</a>
           </div>

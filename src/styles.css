@@ -10518,6 +10518,139 @@ section#apply-now-co h2 {
   color: #000;
 }
 
+
+
+/* MEET THE TEAM */
+
+header.team {
+  height: 70vh;
+}
+
+header.team .js-scroll-trigger {
+  bottom: 25vh;
+}
+
+section#team-slide {
+  background-color: #fff;
+  padding: 0;
+}
+
+#team-slide .carousel-indicators {
+  position: relative;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: auto;
+  margin: 0 auto;
+}
+
+#team-slide .carousel-indicators li {
+  position: relative;
+  background-color: transparent !important;
+  width: 12%;
+  max-width: 110px;
+  height: auto;
+  text-indent: 0;
+  border-top: none;
+  border-bottom: none;
+}
+
+#team-slide .carousel-indicators li.active {
+  width: 16%;
+  max-width: 140px;
+}
+
+#team-slide .carousel-indicators li img {
+  position: absolute;
+  bottom: 0;
+}
+
+
+#team-slide .carousel-item .row > * {
+  position: relative;
+  display: inline-block;
+  float: none;
+  vertical-align: bottom;
+}
+
+#team-slide .carousel-item .col-sm-7 > * {
+  width: 95%;
+  margin-left: 0;
+  margin-right: 0;;
+}
+
+#team-slide .carousel-item .col-sm-5 {
+  position: relative;
+  min-height: 65vh;
+}
+
+#team-slide .carousel-item img {
+  width: 85%;
+  max-width: fit-content;
+  padding: 2vh 2vh 0;
+  position: absolute;
+  bottom: 0;
+}
+
+#team-slide .carousel-item h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #000;
+  padding: 4vh 0 0;
+}
+
+#team-slide .carousel-item h4 {
+  font-size: 1.1rem;
+  color: #888;
+  padding: 0;
+  margin: 0 auto 2vh;
+}
+
+#team-slide .carousel-item p {
+  font-size: 1.1rem;
+  padding-top: 2vh;
+  border-top: 1vh solid #e0002a;
+  color: #000;
+}
+
+section#vision.team-page {
+  padding: 9vh 0;
+  background-color: #000;
+}
+
+section#vision.team-page .text-center {
+  transform: none;
+}
+
+section#vision.team-page h2 {
+  color: #fff;
+}
+
+section#vision.team-page .col-md-3 {
+  margin: 3vh auto 0;
+}
+
+section#vision.team-page .col-md-3 h3 {
+  font-size: 1.5rem;
+}
+
+section#vision.team-page .col-md-3 p {
+  font-size: 1.25rem;
+}
+
+
+
+section#about.apply-page {
+  background-color: #fff;
+}
+
+section#about.apply-page h2 {
+  color: #000;
+}
+
+
+
+
 .item blockquote {
   border-left: none;
   margin: 0;
@@ -10712,6 +10845,15 @@ section#apply-now-co h2 {
   margin-top: 1.5rem;
   margin-bottom: 0;
 }
+
+
+
+
+
+
+
+
+
 
 /* CONTACT FORM */
 

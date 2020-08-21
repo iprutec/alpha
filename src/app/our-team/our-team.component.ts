@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-our-team',
   template: `
   <!-- Masthead-->
-  <header class="masthead subpage">
+  <header class="masthead subpage team">
       <div class="container">
           <div class="masthead-heading text-uppercase">Meet our team</div>
           <div class="masthead-subheading">
@@ -21,116 +21,197 @@ import { Component, OnInit } from '@angular/core';
       <div class="container-fluid">
           <div class="row">
               <div class="col-md-12">
-                  <h2 class="section-heading text-uppercase">Testimonials</h2>
   
                   <div class="carousel slide" id="my-carousel" data-ride="carousel">
                       <ol class="carousel-indicators">
-                          <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
-                          <li data-target="#my-carousel" data-slide-to="1"></li>
-                          <li data-target="#my-carousel" data-slide-to="2"></li>
-                          <li data-target="#my-carousel" data-slide-to="3"></li>
-                          <li data-target="#my-carousel" data-slide-to="4"></li>
-                          <li data-target="#my-carousel" data-slide-to="5"></li>
-                          <li data-target="#my-carousel" data-slide-to="6"></li>
-                          <li data-target="#my-carousel" data-slide-to="7"></li>
+                          <li data-target="#my-carousel" data-slide-to="0" class="active">
+                            <img src="assets/img/team/roger-thumb.png" alt="" class="w-100">
+                          </li>
+                          <li data-target="#my-carousel" data-slide-to="1">
+                            <img src="assets/img/team/ella-thumb.png" alt="" class="w-100">
+                          </li>
+                          <li data-target="#my-carousel" data-slide-to="2">
+                            <img src="assets/img/team/team-g-1-thumb.png" alt="" class="w-100">
+                          </li>
+                          <li data-target="#my-carousel" data-slide-to="3">
+                            <img src="assets/img/team/angelyn-thumb.png" alt="" class="w-100">
+                          </li>
+                          <li data-target="#my-carousel" data-slide-to="4">
+                            <img src="assets/img/team/team-b-1-thumb.png" alt="" class="w-100">
+                          </li>
+                          <li data-target="#my-carousel" data-slide-to="5">
+                            <img src="assets/img/team/team-g-2-thumb.png" alt="" class="w-100">
+                          </li>
+                          <li data-target="#my-carousel" data-slide-to="6">
+                            <img src="assets/img/team/flor-thumb.png" alt="" class="w-100">
+                          </li>
+                          <li data-target="#my-carousel" data-slide-to="7">
+                            <img src="assets/img/team/team-b-2-thumb.png" alt="" class="w-100">
+                          </li>
                       </ol>
                       <div class="carousel-inner">
                           <!-- Slide 1 -->
-                          <div class="carousel-item text-center active">
+                          <div class="carousel-item active">
   
                               <div class="row">
-                                  <div class="col-sm-2"><img src="assets/img/placeholder.png" alt="" class="d-block w-100 rounded-circle"></div>
-                                  <div class="col-sm-9"><p class="text-dark">Presented practical reasons to avail critical illness policy</p>
-                                      <h4>
-                                          <strong class="text-uppercase">Jude M</strong>
-                                      </h4>
+                                  <div class="col-sm-5">
+                                    <img src="assets/img/team/roger.png" alt="">
+                                  </div>
+                                  <div class="col-sm-7">
+                                    <h3 class="text-uppercase">
+                                        Roger Abarico
+                                    </h3>
+                                    <h4>
+                                        Triathlete / Backpacker<br>
+                                        Former Third Party Risk Management Consultant
+                                    </h4>
+                                    <p>
+                                        Ever since, I have always been in pursuit of a career that would give me sufficient income to help me achieve my goals while supporting my family’s needs. 
+                                        <br><br>
+                                        However last April 2018, I met an accident. I was robbed, brought myself to the hospital and underwent an operation. I was deeply in pain physically and financially. That unfortunate event made me realized three things in life. First, accidents happen anytime, anywhere. Second, enough savings will make you survive. Third, adequate protection will allow you to still continue reaching your goals and supporting your family.
+                                        <br><br>
+                                        I became a Financial Consultant primarily because I want to live my second life with a purpose. I want to help people manage their finances. Moreover, I want to earn additional income while making an impact to the lives of those who also dream, aspire and passionate to make a difference.
+                                    </p>   
                                   </div>
                               </div>
                               
                           </div>
   
                           <!-- Slide 2 -->
-                          <div class="carousel-item text-center">
+                          <div class="carousel-item">
                               <div class="row">
-                                  <div class="col-sm-2"><img src="assets/img/placeholder.png" alt="" class="d-block w-100 rounded-circle"></div>
-                                  <div class="col-sm-9"><p class="text-dark">A well-versed financial consultant. Thank you for helping me get my plan according to my needs and capabilities.</p>
-                                      <h4>
-                                          <strong class="text-uppercase">Dex B</strong>
-                                      </h4>
+                                  <div class="col-sm-5">
+                                    <img src="assets/img/team/ella.png" alt="">
+                                  </div>
+                                  <div class="col-sm-7">
+                                    <h3 class="text-uppercase">
+                                        Ella Ocampo
+                                    </h3>
+                                    <p>
+                                        Hello! My name is Villaluz Ocampo aka Ella. What so special about me? Im a Licensed Financial Consultant at heart, I put my client's interests first and my own interests second. So not only I can generate a proposal for you, I surely will evaluate and tailor the plan that is best for you to meet your goals. 
+                                        <br><br>
+                                        My passion is helping people build their financial plan for their protection, savings, retirement and investments. I always keep the lines of communication open, updating my clients on current happenings and opportunities. 
+                                        <br><br>
+                                        In the last 6 years I've had an amazing career. I've worked for a huge company and a consistent awardee because of my passion and commitment. 
+                                        <br><br>
+                                        I found myself in this path after my mom had flat-lined. Nothing can replace her in my heart, yet that made me realized how life insurance is crucial in everyday life. This push me harder to secure more lives by providing protection for the uncertainties in life.
+                                    </p>   
                                   </div>
                               </div>
                           </div>
   
                           <!-- Slide 3 -->
-                          <div class="carousel-item text-center">
-                              <div class="row">
-                                  <div class="col-sm-2"><img src="assets/img/placeholder.png" alt="" class="d-block w-100 rounded-circle"></div>
-                                  <div class="col-sm-9"><p class="text-dark">Reliable and Trustworthy Financial advisor ⭐️⭐️⭐️⭐️⭐️</p>
-                                      <h4>
-                                          <strong class="text-uppercase">Flovy R</strong>
-                                      </h4>
-                                  </div>
-                              </div>
+                          <div class="carousel-item">
+                                <div class="row">
+                                <div class="col-sm-5">
+                                    <img src="assets/img/team/team-g-1.png" alt="">
+                                </div>
+                                <div class="col-sm-7">
+                                    <h3 class="text-uppercase">
+                                        FirstN Surname
+                                    </h3>
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>   
+                                </div>
+                            </div>
                           </div>
   
                           <!-- Slide 4 -->
-                          <div class="carousel-item text-center">
-                              <div class="row">
-                                  <div class="col-sm-2"><img src="assets/img/placeholder.png" alt="" class="d-block w-100 rounded-circle"></div>
-                                  <div class="col-sm-9"><p class="text-dark">A Financial Coach who cares for his client. After he presented to me the plan,he let me have an ample time to think through and assess my financial capabilities.Never nya ako kinulit or what. It took me 5 months to decide and ako na mismo ung lumapit at nangulit ng proposal.</p>
-                                      <h4>
-                                          <strong class="text-uppercase">Sheina A</strong>
-                                      </h4>
-                                  </div>
-                              </div>
+                          <div class="carousel-item">
+                                <div class="row">
+                                <div class="col-sm-5">
+                                    <img src="assets/img/team/angelyn.png" alt="">
+                                </div>
+                                <div class="col-sm-7">
+                                    <h3 class="text-uppercase">
+                                         Angelyn Radaza
+
+                                    </h3>
+                                    <p>
+                                        At first, I was skeptical to be a Financial Advisor because I thought it was really hard to become one and I could not even convince any client to get an Income Protection plan. However, it changed when one of my colleagues convinced me and shared how he was able to help those people manage their finances and save for their future. 
+                                        <br><br>
+                                        I am new to this business and so far I am enjoying it, with continuous learning that I could use to share or educate people, instill in them the importance of life insurance and help them how to save their hard-earned money. I am determined
+                                        to work hard on this business because I know being a Licensed Financial Advisor is a very rewarding job and it helps me to have an extra income that could support my family.
+                                    </p>   
+                                </div>
+                            </div>
                           </div>
   
                           <!-- Slide 5 -->
-                          <div class="carousel-item text-center">
-                              <div class="row">
-                                  <div class="col-sm-2"><img src="assets/img/placeholder.png" alt="" class="d-block w-100 rounded-circle"></div>
-                                  <div class="col-sm-9"><p class="text-dark">I personally and professionally deal with Roger. He always makes sure to inform me of the latest updates with Prulife and sensible questions asked to ascertain that I'm fully knowledgeable about my plan. Cheers to his passion for making lives protected and secured</p>
-                                      <h4>
-                                          <strong class="text-uppercase">Lester M</strong>
-                                      </h4>
-                                  </div>
-                              </div>
+                          <div class="carousel-item">
+                                <div class="row">
+                                <div class="col-sm-5">
+                                    <img src="assets/img/team/team-b-1.png" alt="">
+                                </div>
+                                <div class="col-sm-7">
+                                    <h3 class="text-uppercase">
+                                        FirstN Surname
+                                    </h3>
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>   
+                                </div>
+                            </div>
                           </div>
   
                           <!-- Slide 6 -->
-                          <div class="carousel-item text-center">
-                              <div class="row">
-                                  <div class="col-sm-2"><img src="assets/img/placeholder.png" alt="" class="d-block w-100 rounded-circle"></div>
-                                  <div class="col-sm-9"><p class="text-dark">Well detailed and very professional financial advisor. His integrity and knowledge are invaluable.</p>
-                                      <h4>
-                                          <strong class="text-uppercase">Tina A</strong>
-                                      </h4>
-                                  </div>
-                              </div>
+                          <div class="carousel-item">
+                            <div class="row">
+                            <div class="col-sm-5">
+                                <img src="assets/img/team/team-g-2.png" alt="">
+                            </div>
+                            <div class="col-sm-7">
+                                <h3 class="text-uppercase">
+                                    FirstN Surname
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>   
+                            </div>
+                        </div>
                           </div>
   
                           <!-- Slide 7 -->
-                          <div class="carousel-item text-center">
-                              <div class="row">
-                                  <div class="col-sm-2"><img src="assets/img/placeholder.png" alt="" class="d-block w-100 rounded-circle"></div>
-                                  <div class="col-sm-9"><p class="text-dark">Sir Roger is an effective financial consultant, he explained clearly the importance of having an Insurance especially with Pru Life U.K. When it comes to payment of my premium, he always finds time in going to our office. He is kind, polite and respectful. Congratulations Sir Roger, more power. God bless.</p>
-                                      <h4>
-                                          <strong class="text-uppercase">Alni S</strong>
-                                      </h4>
-                                  </div>
-                              </div>
+                          <div class="carousel-item">
+                            <div class="row">
+                            <div class="col-sm-5">
+                                <img src="assets/img/team/flor.png" alt="">
+                            </div>
+                            <div class="col-sm-7">
+                                <h3 class="text-uppercase">
+                                    Flor Seachon
+                                </h3>
+
+                                <p>
+                                    Have you ever lost someone you truly loved? 
+                                    <br><br>
+                                    My father died when I was 10 yrs old. He met an accident. Due to lack of preparedness and plans we struggled a lot emotionally and financially. We started losing our businesses, in just a blink of an eye everything that my father worked hard and cherished for years were gone. 
+                                    <br><br>
+                                    I joined Prulife UK to share my journey on how my family learned and conquered that challenge. Be prepared now so that your family won't need to go through the same thing that my family had been through. Secure your finances while protecting your health.
+                                </p>   
+                            </div>
+                        </div>
                           </div>
   
                           <!-- Slide 8 -->
-                          <div class="carousel-item text-center">
-                              <div class="row">
-                                  <div class="col-sm-2"><img src="assets/img/placeholder.png" alt="" class="d-block w-100 rounded-circle"></div>
-                                  <div class="col-sm-9"><p class="text-dark">I personally and professionally deal with Roger. He always makes sure to inform me of the latest updates with Prulife and sensible questions asked to ascertain that I'm fully knowledgeable about my plan. Cheers to his passion for making lives protected and secured</p>
-                                      <h4>
-                                          <strong class="text-uppercase">Lester M</strong>
-                                      </h4>
-                                  </div>
-                              </div>
+                          <div class="carousel-item">
+                                <div class="row">
+                                <div class="col-sm-5">
+                                    <img src="assets/img/team/team-b-2.png" alt="">
+                                </div>
+                                <div class="col-sm-7">
+                                    <h3 class="text-uppercase">
+                                        FirstN Surname
+                                    </h3>
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>   
+                                </div>
+                            </div>
                           </div>
   
   
@@ -155,18 +236,12 @@ import { Component, OnInit } from '@angular/core';
   </section>
   
   
-  <!-- About-->
-  <section class="page-section" id="about">
-      <div class="container">
-          <div class="text-center">
-              <h2 class="section-heading text-uppercase">Our Values</h2>
-          </div>
-      </div>
-  </section>
-  
   <!-- Vision -->
-  <section class="page-section" id="vision">
+  <section class="page-section team-page" id="vision">
       <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Our Values</h2>
+        </div>
         <div class="row text-center first">
             <div class="col-md-3">
                 <h3>INTEGRITY</h3>
