@@ -4,9 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-contact',
   template: `
   <!-- Masthead-->
-  <header class="masthead subpage">
+  <header class="masthead subpage contactPage">
       <div class="container">
-          <div class="masthead-heading text-uppercase">Get in touch</div>
+          <div class="masthead-heading text-uppercase">Get in <span class="text-red">touch</span></div>
           <div class="masthead-subheading">
           <p>
               We'd love to help you start securing your future
@@ -20,7 +20,7 @@ import { Component, OnInit } from '@angular/core';
   <section class="page-section" id="contact">
       <div class="container">
           <div class="text-center">
-              <h2 class="section-heading text-uppercase">Connect with us</h2>
+              <p>Please fill out the form below. Fields marked * are mandatory.</p>
           </div>
           <form id="contactForm" name="sentMessage" novalidate="novalidate">
               <div class="row align-items-stretch mb-5">

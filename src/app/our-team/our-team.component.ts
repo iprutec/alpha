@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   <!-- Masthead-->
   <header class="masthead subpage team">
       <div class="container">
-          <div class="masthead-heading text-uppercase">Meet our team</div>
+          <div class="masthead-heading text-uppercase"><span class="text-red">Be part</span> of our team</div>
           <div class="masthead-subheading">
           <p>
           We are all registered and licensed financial consultants of an insurance company that pioneered the variable-unit linked products in the Philippines - Pru Life UK.
@@ -65,13 +65,15 @@ import { Component, OnInit } from '@angular/core';
                                         Triathlete / Backpacker<br>
                                         Former Third Party Risk Management Consultant
                                     </h4>
+                                    <input type="checkbox" id="expanded">
                                     <p>
                                         Ever since, I have always been in pursuit of a career that would give me sufficient income to help me achieve my goals while supporting my family’s needs. 
                                         <br><br>
                                         However last April 2018, I met an accident. I was robbed, brought myself to the hospital and underwent an operation. I was deeply in pain physically and financially. That unfortunate event made me realized three things in life. First, accidents happen anytime, anywhere. Second, enough savings will make you survive. Third, adequate protection will allow you to still continue reaching your goals and supporting your family.
                                         <br><br>
                                         I became a Financial Consultant primarily because I want to live my second life with a purpose. I want to help people manage their finances. Moreover, I want to earn additional income while making an impact to the lives of those who also dream, aspire and passionate to make a difference.
-                                    </p>   
+                                    </p>  
+                                    <label for="expanded" role="button">read more</label> 
                                   </div>
                               </div>
                               
@@ -87,6 +89,7 @@ import { Component, OnInit } from '@angular/core';
                                     <h3 class="text-uppercase">
                                         Ella Ocampo
                                     </h3>
+                                    
                                     <p>
                                         Hello! My name is Villaluz Ocampo aka Ella. What so special about me? Im a Licensed Financial Consultant at heart, I put my client's interests first and my own interests second. So not only I can generate a proposal for you, I surely will evaluate and tailor the plan that is best for you to meet your goals. 
                                         <br><br>
@@ -95,7 +98,8 @@ import { Component, OnInit } from '@angular/core';
                                         In the last 6 years I've had an amazing career. I've worked for a huge company and a consistent awardee because of my passion and commitment. 
                                         <br><br>
                                         I found myself in this path after my mom had flat-lined. Nothing can replace her in my heart, yet that made me realized how life insurance is crucial in everyday life. This push me harder to secure more lives by providing protection for the uncertainties in life.
-                                    </p>   
+                                    </p>
+                                    
                                   </div>
                               </div>
                           </div>
@@ -110,10 +114,11 @@ import { Component, OnInit } from '@angular/core';
                                     <h3 class="text-uppercase">
                                         FirstN Surname
                                     </h3>
-
+                                    
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>   
+                                    </p>
+                                    
                                 </div>
                             </div>
                           </div>
@@ -129,12 +134,14 @@ import { Component, OnInit } from '@angular/core';
                                          Angelyn Radaza
 
                                     </h3>
+                                    
                                     <p>
                                         At first, I was skeptical to be a Financial Advisor because I thought it was really hard to become one and I could not even convince any client to get an Income Protection plan. However, it changed when one of my colleagues convinced me and shared how he was able to help those people manage their finances and save for their future. 
                                         <br><br>
                                         I am new to this business and so far I am enjoying it, with continuous learning that I could use to share or educate people, instill in them the importance of life insurance and help them how to save their hard-earned money. I am determined
                                         to work hard on this business because I know being a Licensed Financial Advisor is a very rewarding job and it helps me to have an extra income that could support my family.
-                                    </p>   
+                                    </p>
+                                      
                                 </div>
                             </div>
                           </div>
@@ -149,10 +156,11 @@ import { Component, OnInit } from '@angular/core';
                                     <h3 class="text-uppercase">
                                         FirstN Surname
                                     </h3>
-
+                                    
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>   
+                                    </p>
+                                      
                                 </div>
                             </div>
                           </div>
@@ -167,9 +175,11 @@ import { Component, OnInit } from '@angular/core';
                                 <h3 class="text-uppercase">
                                     FirstN Surname
                                 </h3>
+                                
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>   
+                                </p>
+                                 
                             </div>
                         </div>
                           </div>
@@ -184,14 +194,15 @@ import { Component, OnInit } from '@angular/core';
                                 <h3 class="text-uppercase">
                                     Flor Seachon
                                 </h3>
-
+                                
                                 <p>
                                     Have you ever lost someone you truly loved? 
                                     <br><br>
                                     My father died when I was 10 yrs old. He met an accident. Due to lack of preparedness and plans we struggled a lot emotionally and financially. We started losing our businesses, in just a blink of an eye everything that my father worked hard and cherished for years were gone. 
                                     <br><br>
                                     I joined Prulife UK to share my journey on how my family learned and conquered that challenge. Be prepared now so that your family won't need to go through the same thing that my family had been through. Secure your finances while protecting your health.
-                                </p>   
+                                </p>
+                                 
                             </div>
                         </div>
                           </div>
@@ -206,10 +217,11 @@ import { Component, OnInit } from '@angular/core';
                                     <h3 class="text-uppercase">
                                         FirstN Surname
                                     </h3>
-
+                                    
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>   
+                                    </p>
+                                      
                                 </div>
                             </div>
                           </div>

@@ -19,6 +19,10 @@ response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+        <!-- Bootstrap Date-Picker Plugin -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
         <script>
             jQuery(function($) {
 
@@ -37,10 +41,14 @@ response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
                 });
             })
 
-              $(window).load(function() {
-                // When the page has loaded
-                $("body").fadeIn(2000);
-              });
+            $(window).load(function() {
+            // When the page has loaded
+            $("body").fadeIn(2000);
+            });
+
+            $(function () {
+            $('#datetimepicker4').datetimepicker();
+            });
               
             });      
         </script>
@@ -70,6 +78,23 @@ response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
                 });
               
             }); 
+
+            $(document).ready(function(){
+                $(window).scroll(function () {
+                        if ($(this).scrollTop() > 50) {
+                            $('#back-to-top').fadeIn();
+                        } else {
+                            $('#back-to-top').fadeOut();
+                        }
+                    });
+                    // scroll body to 0px on click
+                    $('#back-to-top').click(function () {
+                        $('body,html').animate({
+                            scrollTop: 0
+                        }, 400);
+                        return false;
+                    });
+            });
             
         </script>
         
