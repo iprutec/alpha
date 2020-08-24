@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="masthead-heading text-uppercase">Making your future a success</div>
           <div class="masthead-subheading">
           <p>
-              We are company of diversed Financial Consultants that offer financial solutions designed to meet your risk tolerance and stand up against market volatility. We provide unbiased recommendations and impartial guidance based directly on your needs and goals.
+              We are a group of diversed Financial Consultants that offer financial solutions designed to meet your risk tolerance and stand up against market volatility. We provide unbiased recommendations and impartial guidance based directly on your needs and goals.
           </p>
           </div>
           <div class="masthead-subheading">

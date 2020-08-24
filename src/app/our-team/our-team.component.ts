@@ -31,22 +31,13 @@ import { Component, OnInit } from '@angular/core';
                             <img src="assets/img/team/ella-thumb.png" alt="" class="w-100">
                           </li>
                           <li data-target="#my-carousel" data-slide-to="2">
-                            <img src="assets/img/team/team-g-1-thumb.png" alt="" class="w-100">
-                          </li>
-                          <li data-target="#my-carousel" data-slide-to="3">
                             <img src="assets/img/team/angelyn-thumb.png" alt="" class="w-100">
                           </li>
-                          <li data-target="#my-carousel" data-slide-to="4">
+                          <li data-target="#my-carousel" data-slide-to="3">
                             <img src="assets/img/team/team-b-1-thumb.png" alt="" class="w-100">
                           </li>
-                          <li data-target="#my-carousel" data-slide-to="5">
-                            <img src="assets/img/team/team-g-2-thumb.png" alt="" class="w-100">
-                          </li>
-                          <li data-target="#my-carousel" data-slide-to="6">
+                          <li data-target="#my-carousel" data-slide-to="4">
                             <img src="assets/img/team/flor-thumb.png" alt="" class="w-100">
-                          </li>
-                          <li data-target="#my-carousel" data-slide-to="7">
-                            <img src="assets/img/team/team-b-2-thumb.png" alt="" class="w-100">
                           </li>
                       </ol>
                       <div class="carousel-inner">
@@ -104,24 +95,7 @@ import { Component, OnInit } from '@angular/core';
                               </div>
                           </div>
   
-                          <!-- Slide 3 -->
-                          <div class="carousel-item">
-                                <div class="row">
-                                <div class="col-sm-5">
-                                    <img src="assets/img/team/team-g-1.png" alt="">
-                                </div>
-                                <div class="col-sm-7">
-                                    <h3 class="text-uppercase">
-                                        FirstN Surname
-                                    </h3>
-                                    
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
-                                    
-                                </div>
-                            </div>
-                          </div>
+                          
   
                           <!-- Slide 4 -->
                           <div class="carousel-item">
@@ -154,35 +128,20 @@ import { Component, OnInit } from '@angular/core';
                                 </div>
                                 <div class="col-sm-7">
                                     <h3 class="text-uppercase">
-                                        FirstN Surname
+                                        Jim Fronda
                                     </h3>
                                     
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        I came from a poor family and this has taught me to be more cognizant of my spending habits to achieve financial freedom. I had been a fan of too-much delayed gratification. Once, I was rushed to the hospital due to elevated blood pressure. I was also partially hit by a motorcycle two years back.
+                                        <br><br>
+                                        These experiences made me realized to value more LIFE and live the way I wanted since there are a lot of uncertainties that come along the way. Be kind to yourself. Do what you love to do. Sleep with peace of mind. Protect yourself from life's uncertainties and invest in your future while living the moment. This can be down through proper financial planning.
                                     </p>
                                       
                                 </div>
                             </div>
                           </div>
   
-                          <!-- Slide 6 -->
-                          <div class="carousel-item">
-                            <div class="row">
-                            <div class="col-sm-5">
-                                <img src="assets/img/team/team-g-2.png" alt="">
-                            </div>
-                            <div class="col-sm-7">
-                                <h3 class="text-uppercase">
-                                    FirstN Surname
-                                </h3>
-                                
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
-                                 
-                            </div>
-                        </div>
-                          </div>
+                    
   
                           <!-- Slide 7 -->
                           <div class="carousel-item">
@@ -207,25 +166,7 @@ import { Component, OnInit } from '@angular/core';
                         </div>
                           </div>
   
-                          <!-- Slide 8 -->
-                          <div class="carousel-item">
-                                <div class="row">
-                                <div class="col-sm-5">
-                                    <img src="assets/img/team/team-b-2.png" alt="">
-                                </div>
-                                <div class="col-sm-7">
-                                    <h3 class="text-uppercase">
-                                        FirstN Surname
-                                    </h3>
-                                    
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
-                                      
-                                </div>
-                            </div>
-                          </div>
-  
+                          
   
   
   
